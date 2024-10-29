@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Empleado</title>
+    <link href="css/empStyle.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Employee App</h1>
+        <nav>
+            <a href="/index.html">Agregar Empleado</a>
+            <a href="/findbyid.html">Buscar Empleado por ID</a>
+            <a href="/findall.html">Ver Todos los Empleados</a>
+            <a href="/deletebyid.html">Eliminar Empleado por ID</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Hola, por favor ingrese los datos del empleado</h2>
+        <form action="/save" method="post">
+            <table cellspacing="3" cellpadding="3" border="1">
+                <tr>
+                    <td align="right">ID Empleado:</td>
+                    <td><input type="text" name="id" required></td>
+                </tr>
+                <tr>
+                    <td align="right">Nombre Empleado:</td>
+                    <td><input type="text" name="name" required></td>
+                </tr>
+                <tr>
+                    <td align="right">Email Empleado:</td>
+                    <td><input type="email" name="email" required></td>
+                </tr>
+                <tr>
+                    <td align="right">Teléfono Empleado:</td>
+                    <td><input type="tel" name="phone" required></td>
+                </tr>
+            </table>
+            <button type="submit">Enviar</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>Andrés Leonardo Maldonado</p>
+        <p>Esteban Peña Coronado</p>
+        <p>William Cely López</p>
+    </footer>
+</body>
+</html>

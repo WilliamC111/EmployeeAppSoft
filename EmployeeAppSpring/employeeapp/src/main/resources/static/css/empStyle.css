@@ -1,0 +1,106 @@
+/* Archivo: empStyle.css */
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Estilos del header */
+header {
+    background-color: #333;
+    color: #f9f9f9;
+    padding: 1em 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.8em;
+}
+
+header nav {
+    margin-top: 0.5em;
+}
+
+header nav a {
+    color: #f9f9f9;
+    text-decoration: none;
+    margin: 0 1em;
+    font-size: 1em;
+}
+
+header nav a:hover {
+    color: #ddd;
+    text-decoration: underline;
+}
+
+/* Estilos del main */
+main {
+    padding: 2em;
+    max-width: 800px;
+    margin: auto;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+main h2 {
+    color: #333;
+    font-size: 1.5em;
+    margin-bottom: 1em;
+}
+
+form table {
+    width: 100%;
+    margin-bottom: 1em;
+    border-collapse: collapse;
+}
+
+form table td {
+    padding: 0.5em;
+}
+
+form table td:first-child {
+    text-align: right;
+    color: #555;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="tel"] {
+    width: 100%;
+    padding: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button[type="submit"] {
+    background-color: #333;
+    color: #f9f9f9;
+    padding: 0.7em 1.5em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #555;
+}
+
+/* Estilos del footer */
+footer {
+    background-color: #333;
+    color: #f9f9f9;
+    text-align: center;
+    padding: 1em 0;
+    margin-top: 2em;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9em;
+}

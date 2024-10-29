@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscar Empleado por ID</title>
+    <link href="css/empStyle.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Employee App</h1>
+        <nav>
+            <a href="/index.html">Agregar Empleado</a>
+            <a href="/findbyid.html">Buscar Empleado por ID</a>
+            <a href="/findall.html">Ver Todos los Empleados</a>
+            <a href="/deletebyid.html">Eliminar Empleado por ID</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Buscar Empleado por ID</h2>
+        <form action="/findbyid" method="get">
+            <table cellspacing="3" cellpadding="3" border="1">
+                <tr>
+                    <td align="right">ID Empleado:</td>
+                    <td><input type="text" name="id" required></td>
+                </tr>
+            </table>
+            <button type="submit">Buscar</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>Andrés Leonardo Maldonado</p>
+        <p>Esteban Peña Coronado</p>
+        <p>William Cely López</p>
+    </footer>
+</body>
+</html>
